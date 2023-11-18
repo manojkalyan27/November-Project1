@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  color: #fcaf02;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+}
+
+#navbar {
+  display: flex;
+  background-color: rgba(252, 175, 2, 1);
+  /* width: 2049px; */
+  height: 70px;
+  /* flex-shrink: 0; */
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
+
+.nav-links {
+  display: flex;
+  /* justify-content: right; */
+  margin-left: 1500px;
+}
+
+#navbar > div > img {
+  margin-inline: 50px;
+}
+
+.nav-links > li > a {
+  text-decoration: none;
+  /* justify-content: right; */
+  color: #000;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.nav-links > li {
+  list-style-type: none;
+  padding-inline: 20px;
+}
+
+#body {
+  background-color: #000;
+  color: #fff;
+}
+
+#intro {
+  display: flex;
+  justify-content: space-between;
+}
+.section {
+  margin-top: 50px;
+}
+.align {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 50px;
+}
+
+#intro > div > h1 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+  /* margin-left: 58px; */
+  /* margin-top: 50px; */
+}
+
+#intro > div > p {
+  color: #fff;
+  width: 917px;
+  font-size: 28px;
+  font-weight: 400;
+  /* margin: 30px; */
+}
+
+#intro > div > button {
+  border-radius: 500px;
+  background: #fcaf02;
+  width: 323px;
+  height: 66px;
+  color: #000;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+#intro > div > img {
+  margin-left: -1000px;
+}
+
+#contact {
+  font-size: 64px;
+  font-weight: 700;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+form > input:nth-child(1),
+form > input:nth-child(2) {
+  width: 1800px;
+  height: 82px;
+}
+
+form > input:nth-child(3),
+form > input:nth-child(4) {
+  width: 862px;
+  height: 82px;
+}
+
+input {
+  color: #fcaf02;
+  border: 2px solid #fcaf02;
+  border-radius: 100px;
+  background: #000;
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding-left: 50px;
+}
+
+#contact > div > button {
+  width: 325px;
+  height: 82px;
+  border-radius: 100px;
+  border: 2px solid #fcaf02;
+  background: #fcaf02;
+  color: #000;
+  font-size: 32px;
+  font-weight: 700;
+}
+.form {
+  margin-bottom: 20px;
+}
+
+.submit {
+  margin-left: 780px;
+}
+
+table {
+  border: 2px solid #fcaf02;
+  width: 1582px;
+  height: 755px;
+  margin-inline: 100px;
+  margin-top: 50px;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+table > tr:nth-child(1) {
+  border: 2px solid #fcaf02;
+}
+th:nth-child(1),
+th:nth-child(2) {
+  border-bottom: 2px solid #fcaf02;
+  border-right: 2px solid #fcaf02;
+  text-align: left;
+  padding-left: 60px;
+}
+th:nth-child(3) {
+  border-bottom: 2px solid #fcaf02;
+  text-align: left;
+  padding-left: 60px;
+}
+
+td:nth-child(1),
+td:nth-child(2) {
+  text-align: left;
+  padding-left: 60px;
+  border-right: 2px solid #fcaf02;
+}
+td:nth-child(3) {
+  text-align: left;
+  padding-left: 60px;
+}
+
+tfoot {
+  width: 1582px;
+  height: 91px;
+  background-color: #fcaf02;
+}
+
+tfoot > tr > td {
+  color: #000;
+}
+
+*:focus {
+  outline: 0 !important;
+}
+
+::placeholder {
+  color: #fcaf02;
+  opacity: 1; /* Firefox */
+}
